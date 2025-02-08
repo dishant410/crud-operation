@@ -39,4 +39,6 @@ app.get('/delete',async (req,res)=>{
     res.send(users);
 })
 
+console.log("hello");
+
 app.listen(3000);
